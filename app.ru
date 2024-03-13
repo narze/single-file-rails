@@ -45,10 +45,6 @@ ActiveRecord::Schema.define do
 end
 
 # 4. Models
-# class ApplicationRecord < ActiveRecord::Base
-#   primary_abstract_class
-# end
-
 class Post < ActiveRecord::Base
   has_many :comments
 end
