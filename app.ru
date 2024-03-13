@@ -1,3 +1,6 @@
+# Install rackup with `gem install rack`
+# Run me with `rackup app.ru`
+
 # 1. Gems (Inline)
 require 'bundler/inline'
 
